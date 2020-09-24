@@ -158,12 +158,8 @@ body {
 
 .screenshots-list {
     padding: 50px;
-}
-
-.screenshots-list:after {
-    display: block;
-    content: "";
-    clear: both;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .screenshots-title {
@@ -173,31 +169,12 @@ body {
     color: #445161;
     display: block;
     text-align: center;
+    width: 100%;
 }
 
 .screenshot-item {
-    width: calc(50% - 5px);
-    margin: 35px 0 0 0;
-
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-}
-
-.screenshot-item:before {
-    content: "";
-    display: block;
-    clear: both;
-    height: 35px;
-}
-
-.screenshot-item-left {
-    float: left;
-}
-
-.screenshot-item-right {
-    float: right;
+    width: calc(50% - 16px);
+    margin: 35px 16px 0 0;
 }
 
 .screenshot-item-photo {
