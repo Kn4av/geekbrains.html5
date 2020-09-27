@@ -59,8 +59,6 @@ body {
 
 .page-header-photo {
     display: block;
-    width: 350px;
-    height: 200px;
     background-color: white;
     color: black;
     float: right;
@@ -103,9 +101,7 @@ body {
 }
 
 .about-product-photo {
-    width: 36%;
     float: right;
-    height: 245px;
     background-color: #445161;
     color: white;
 }
@@ -178,8 +174,6 @@ body {
 }
 
 .screenshot-item-photo {
-    width: 200px;
-    height: 150px;
     background-color: #445161;
     float: left;
     margin-right: 15px;
