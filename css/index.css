@@ -271,3 +271,84 @@ body {
     font-weight: 400;
     color: #989898;
 }
+
+.buy {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.buy-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.buy-package {
+    background-color: #445162;
+    width: 300px;
+    border-radius: 5px;
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+.buy-package-title {
+    font-size: 24px;
+    line-height: 62px;
+    font-weight: 400;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+}
+
+.buy-package-price {
+    font-size: 40px;
+    line-height: 66px;
+    font-weight: 400;
+    color: #445162;
+    background-color: white;
+    display: block;
+    text-align: center;
+    border: 2px solid #445162;
+}
+
+.buy-package-feature-list {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 20px 20px 20px 0;
+}
+
+.buy-package-btn {
+    width: calc(100% - 40px);
+    text-transform: uppercase;
+    margin: 0 20px 0 20px;
+    background-color: #ffffff;
+    border: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #445161;
+}
+
+.buy-package-btn:hover {
+    background-color: indianred;
+    color: white;
+}
+
+.buy-package-btn:active {
+    background-color: yellow;
+    color: #445161;
+}
+
+.buy-package-btn:focus {
+    outline: none;
+}
