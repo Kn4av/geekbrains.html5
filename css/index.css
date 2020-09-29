@@ -363,6 +363,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #445162;
+    justify-content: center;
 }
 
 .contacts-title {
@@ -423,4 +424,60 @@ body {
     margin: 0 auto;
     min-width: 140px;
     min-height: 40px;
+}
+
+.contacts-details {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 46px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.contacts-details-item {
+    margin: 0 0 16px 0;
+    display: flex;
+}
+
+.contacts-details-item-skype-icon {
+    width: 24px;
+    height: 26px;
+    margin: 0 5px 0 0;
+    background-image: url("../img/skype.png");
+}
+
+.contacts-details-item-icq-icon {
+    width: 26px;
+    height: 26px;
+    margin: 0 5px 0 0;
+    background-image: url("../img/icq.png");
+}
+
+.contacts-details-item-email-icon {
+    width: 22px;
+    height: 22px;
+    margin: 0 5px 0 0;
+    background-image: url("../img/email.png");
+}
+
+.contacts-details-item-phone-icon {
+    width: 24px;
+    height: 23px;
+    margin: 0 5px 0 0;
+    background-image: url("../img/phone.png");
+}
+
+.contacts-details-social-media {
+    display: flex;
+}
+
+.contacts-details-social-media-btn {
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 8px 0 0;
 }
