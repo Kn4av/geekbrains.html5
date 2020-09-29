@@ -100,7 +100,7 @@ body {
     margin: 20px 0 0 0;
 }
 
-.about-product-photo {
+.about-product-video {
     float: right;
     background-color: #445161;
     color: white;
@@ -390,6 +390,12 @@ body {
     font-weight: 400;
     color: #445162;
     margin: 0 0 21px 0;
+    outline: none;
+    border: 3px solid white;
+}
+
+.contacts-form-input:focus {
+    border: 3px solid green;
 }
 
 .contacts-form-single-line-input {
