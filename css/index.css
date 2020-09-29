@@ -481,3 +481,16 @@ body {
     border-radius: 50%;
     margin: 0 8px 0 0;
 }
+
+.footer {
+    background-color: #F5F5F5;
+}
+
+.footer-copyright {
+    display: block;
+    text-align: center;
+    line-height: 26px;
+    min-height: 26px;
+    color: #54606F;
+    font-size: 12px;
+}
