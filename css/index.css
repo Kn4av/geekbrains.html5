@@ -2,12 +2,10 @@ body {
     margin: 0;
     font-family: Arial, serif;
 }
-
 .container {
     margin: 0 auto;
     width: 1280px;
 }
-
 .page-header {
     width: 100%;
     background-color: #445162;
@@ -15,37 +13,31 @@ body {
     box-sizing: border-box;
     color: #ffffff;
 }
-
 .page-header:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
-
 .page-header-wrp {
     float: left;
 }
-
 .page-header-title {
     display: block;
     font-size: 60px;
     line-height: 1.2;
     font-weight: 400;
 }
-
 .page-header-list {
     margin: 0;
     padding: 0 0 0 30px;
     font-size: 20px;
     line-height: 36px;
 }
-
 .page-header-list > li {
     list-style-type: none;
     position: relative;
 }
-
 .page-header-list > li:before {
     content: "";
     display: block;
@@ -56,25 +48,21 @@ body {
     top: 8px;
     left: -30px;
 }
-
 .page-header-photo {
     display: block;
     background-color: white;
     color: black;
     float: right;
 }
-
 .about-product {
     padding: 50px;
     background-color: white;
 }
-
 .about-product:after {
     content: "";
     display: block;
     clear: both;
 }
-
 .about-product-text-area {
     background-color: white;
     width: 55%;
@@ -84,33 +72,27 @@ body {
     font-weight: 400;
     color: #333333;
 }
-
 .about-product-title {
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
     color: #445161;
 }
-
 .about-product-description-1 {
     margin: 30px 0 0 0;
 }
-
 .about-product-description-2 {
     margin: 20px 0 0 0;
 }
-
 .about-product-video {
     float: right;
     background-color: #445161;
     color: white;
 }
-
 .product-pluses {
     background-color: #f5f5f5;
     padding: 50px;
 }
-
 .product-pluses-title {
     font-size: 30px;
     line-height: 36px;
@@ -119,20 +101,17 @@ body {
     display: block;
     text-align: center;
 }
-
 .product-pluses-list {
     columns: 2;
     margin: 30px 0 0 0;
     padding: 0;
 }
-
 .product-pluses-list > li {
     margin: 0 0 35px 0;
     padding: 0 0 0 41px;
     list-style-type: none;
     position: relative;
 }
-
 .product-pluses-list > li:before {
     content: "";
     display: block;
@@ -147,17 +126,14 @@ body {
     background-size: 20px 20px;
     background-repeat: no-repeat;
 }
-
 .product-pluses-list > li:nth-child(3n) {
     margin-bottom: 0;
 }
-
 .screenshots-list {
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
 }
-
 .screenshots-title {
     font-size: 30px;
     line-height: 36px;
@@ -167,31 +143,26 @@ body {
     text-align: center;
     width: 100%;
 }
-
 .screenshot-item {
-    width: calc(50% - 16px);
+    width: 48%;
     margin: 35px 16px 0 0;
 }
-
 .screenshot-item-photo {
     background-color: #445161;
     float: left;
     margin-right: 15px;
     color: white;
 }
-
 .screenshot-item-caption-group {
     width: 359px;
     display: inline;
 }
-
 .screenshot-item-title {
     font-size: 24px;
     line-height: 22px;
     font-weight: 400;
     color: #445161;
 }
-
 .screenshot-item-description {
     font-size: 16px;
     line-height: 24px;
@@ -200,14 +171,13 @@ body {
     display: block;
     margin: 12px 0 0 0;
 }
-
 .reviews {
     padding: 50px;
     background-color: #f5f5f5;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
-
 .reviews-title {
     font-size: 30px;
     line-height: 36px;
@@ -217,13 +187,11 @@ body {
     text-align: center;
     width: 100%;
 }
-
 .reviews-item {
     margin: 35px 32px 0 0;
-    width: calc(50% - 32px);
+    width: 47%;
     display: flex;
 }
-
 .reviews-item-avatar {
     background-color: #445161;
     width: 75px;
@@ -232,7 +200,6 @@ body {
     flex-shrink: 0;
     margin: 0 23px 0 0;
 }
-
 .review-item-text-block {
     background-color: #ebebeb;
     padding: 20px;
@@ -240,7 +207,6 @@ body {
     position: relative;
     border-radius: 5px;
 }
-
 .review-item-text-block:before {
     content: '';
     display: block;
@@ -253,7 +219,6 @@ body {
     left: -10px;
     top: 27px;
 }
-
 .reviews-item-review {
     margin: 0 0 0 0;
     font-size: 14px;
@@ -262,7 +227,6 @@ body {
     font-style: italic;
     color: #333333;
 }
-
 .reviews-item-author {
     margin: 15px 0 0 0;
     display: block;
@@ -271,7 +235,6 @@ body {
     font-weight: 400;
     color: #989898;
 }
-
 .buy {
     padding: 50px;
     display: flex;
@@ -279,7 +242,6 @@ body {
     justify-content: space-evenly;
     align-items: flex-end;
 }
-
 .buy-title {
     font-size: 30px;
     line-height: 36px;
@@ -290,7 +252,6 @@ body {
     display: block;
     margin: 0 0 29px 0;
 }
-
 .buy-package {
     background-color: #445162;
     width: 300px;
@@ -298,19 +259,19 @@ body {
     padding: 0 0 20px 0;
     box-sizing: border-box;
 }
-
 .buy-package-title {
     font-size: 24px;
-    line-height: 62px;
+    padding: 16px;
+    box-sizing: border-box;
     font-weight: 400;
     color: #ffffff;
     display: block;
     text-align: center;
 }
-
 .buy-package-price {
     font-size: 40px;
-    line-height: 66px;
+    padding: 18px;
+    box-sizing: border-box;
     font-weight: 400;
     color: #445162;
     background-color: white;
@@ -318,7 +279,6 @@ body {
     text-align: center;
     border: 2px solid #445162;
 }
-
 .buy-package-feature-list {
     font-size: 14px;
     line-height: 24px;
@@ -326,7 +286,6 @@ body {
     color: #ffffff;
     margin: 20px 20px 20px 0;
 }
-
 .buy-package-btn {
     width: calc(100% - 40px);
     margin: 0 20px 0 20px;
@@ -334,7 +293,6 @@ body {
     line-height: 40px;
     font-weight: 700;
 }
-
 .action-button {
     text-transform: uppercase;
     background-color: #ffffff;
@@ -343,21 +301,17 @@ body {
     color: #445161;
     border-radius: 5px;
 }
-
 .action-button:hover {
     background-color: indianred;
     color: white;
 }
-
 .action-button:active {
     background-color: yellow;
     color: #445161;
 }
-
 .buy-package-btn:focus {
     outline: none;
 }
-
 .contacts {
     padding: 50px;
     display: flex;
@@ -365,7 +319,6 @@ body {
     background-color: #445162;
     justify-content: center;
 }
-
 .contacts-title {
     font-size: 30px;
     line-height: 36px;
@@ -376,13 +329,11 @@ body {
     text-align: center;
     margin: 0 0 31px 0;
 }
-
 .contacts-form {
     display: flex;
     flex-direction: column;
     flex-basis: 500px;
 }
-
 .contacts-form-input {
     border-radius: 5px;
     font-size: 16px;
@@ -393,36 +344,30 @@ body {
     outline: none;
     border: 3px solid white;
 }
-
 .contacts-form-input:focus {
     border: 3px solid green;
 }
-
 .contacts-form-single-line-input {
     padding: 0 10px;
     min-height: 40px;
 }
-
 .contacts-form-single-line-input::placeholder {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #445162;
 }
-
 .contacts-form-message {
     resize: none;
     min-height: 180px;
     padding: 13px 10px;
 }
-
 .contacts-form-message::placeholder {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #445162;
 }
-
 .contacts-form-submit {
     font-size: 16px;
     line-height: 24px;
@@ -431,7 +376,6 @@ body {
     min-width: 140px;
     min-height: 40px;
 }
-
 .contacts-details {
     display: flex;
     flex-direction: column;
@@ -441,44 +385,37 @@ body {
     font-weight: 400;
     color: #ffffff;
 }
-
 .contacts-details-item {
     margin: 0 0 16px 0;
     display: flex;
 }
-
 .contacts-details-item-skype-icon {
     width: 24px;
     height: 26px;
     margin: 0 5px 0 0;
     background-image: url("../img/skype.png");
 }
-
 .contacts-details-item-icq-icon {
     width: 26px;
     height: 26px;
     margin: 0 5px 0 0;
     background-image: url("../img/icq.png");
 }
-
 .contacts-details-item-email-icon {
     width: 22px;
     height: 22px;
     margin: 0 5px 0 0;
     background-image: url("../img/email.png");
 }
-
 .contacts-details-item-phone-icon {
     width: 24px;
     height: 23px;
     margin: 0 5px 0 0;
     background-image: url("../img/phone.png");
 }
-
 .contacts-details-social-media {
     display: flex;
 }
-
 .contacts-details-social-media-btn {
     display: block;
     width: 42px;
@@ -487,11 +424,9 @@ body {
     border-radius: 50%;
     margin: 0 8px 0 0;
 }
-
 .footer {
     background-color: #F5F5F5;
 }
-
 .footer-copyright {
     display: block;
     text-align: center;
