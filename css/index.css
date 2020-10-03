@@ -100,7 +100,7 @@ body {
     margin: 20px 0 0 0;
 }
 
-.about-product-photo {
+.about-product-video {
     float: right;
     background-color: #445161;
     color: white;
@@ -288,6 +288,7 @@ body {
     text-align: center;
     width: 100%;
     display: block;
+    margin: 0 0 29px 0;
 }
 
 .buy-package {
@@ -328,27 +329,174 @@ body {
 
 .buy-package-btn {
     width: calc(100% - 40px);
-    text-transform: uppercase;
     margin: 0 20px 0 20px;
-    background-color: #ffffff;
-    border: none;
-    padding: 0;
     font-size: 18px;
     line-height: 40px;
     font-weight: 700;
-    color: #445161;
 }
 
-.buy-package-btn:hover {
+.action-button {
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: none;
+    padding: 0;
+    color: #445161;
+    border-radius: 5px;
+}
+
+.action-button:hover {
     background-color: indianred;
     color: white;
 }
 
-.buy-package-btn:active {
+.action-button:active {
     background-color: yellow;
     color: #445161;
 }
 
 .buy-package-btn:focus {
     outline: none;
+}
+
+.contacts {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #445162;
+    justify-content: center;
+}
+
+.contacts-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 31px 0;
+}
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+}
+
+.contacts-form-input {
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+    margin: 0 0 21px 0;
+    outline: none;
+    border: 3px solid white;
+}
+
+.contacts-form-input:focus {
+    border: 3px solid green;
+}
+
+.contacts-form-single-line-input {
+    padding: 0 10px;
+    min-height: 40px;
+}
+
+.contacts-form-single-line-input::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+}
+
+.contacts-form-message {
+    resize: none;
+    min-height: 180px;
+    padding: 13px 10px;
+}
+
+.contacts-form-message::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+}
+
+.contacts-form-submit {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0 auto;
+    min-width: 140px;
+    min-height: 40px;
+}
+
+.contacts-details {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 46px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.contacts-details-item {
+    margin: 0 0 16px 0;
+    display: flex;
+}
+
+.contacts-details-item-skype-icon {
+    width: 24px;
+    height: 26px;
+    margin: 0 5px 0 0;
+    background-image: url("../img/skype.png");
+}
+
+.contacts-details-item-icq-icon {
+    width: 26px;
+    height: 26px;
+    margin: 0 5px 0 0;
+    background-image: url("../img/icq.png");
+}
+
+.contacts-details-item-email-icon {
+    width: 22px;
+    height: 22px;
+    margin: 0 5px 0 0;
+    background-image: url("../img/email.png");
+}
+
+.contacts-details-item-phone-icon {
+    width: 24px;
+    height: 23px;
+    margin: 0 5px 0 0;
+    background-image: url("../img/phone.png");
+}
+
+.contacts-details-social-media {
+    display: flex;
+}
+
+.contacts-details-social-media-btn {
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 8px 0 0;
+}
+
+.footer {
+    background-color: #F5F5F5;
+}
+
+.footer-copyright {
+    display: block;
+    text-align: center;
+    line-height: 26px;
+    min-height: 26px;
+    color: #54606F;
+    font-size: 12px;
 }
