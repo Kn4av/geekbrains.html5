@@ -1,0 +1,17 @@
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 181px;
+  text-decoration: none;
+  background-color: #484642;
+  color: #fff; }
+  .header-logo-svg {
+    fill: currentColor; }
+  .header-logo-txt {
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: right; }
+  .header-logo:hover {
+    color: #998675; }
