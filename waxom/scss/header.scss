@@ -1,4 +1,14 @@
 .header {
+  $primary-foreground: #fff;
+
+  background-color: #4c4b46;
+  background-image: url('../img/bg_photo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1024px;
+  padding: 40px;
+  box-sizing: border-box;
+
   &-menu-group {
     margin: 0 auto;
     max-width: 1170px;
@@ -12,8 +22,7 @@
       align-items: center;
       width: 181px;
       text-decoration: none;
-      background-color: #484642;
-      color: #fff;
+      color: $primary-foreground;
 
       &:hover {
         color: #998675;
@@ -33,6 +42,7 @@
 
     &-menu {
       flex-shrink: 0;
+
       &-list {
         display: flex;
         padding: 0;
@@ -41,6 +51,16 @@
 
         li {
           margin: 0 30px 0 0;
+
+          font-family: $montserrat;
+          font-size: 14px;
+          line-height: 1.2;
+          font-weight: 300;
+          color: $primary-foreground;
+
+          &:hover {
+            color: #c7b299;
+          }
         }
       }
     }
