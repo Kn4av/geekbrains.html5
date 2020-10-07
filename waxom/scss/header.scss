@@ -157,6 +157,7 @@
         font-size: 52px;
         font-weight: 800;
         font-family: $raleway;
+        margin: 14px 0 0 0;
       }
 
       &-text {
@@ -240,6 +241,10 @@
         opacity: 1;
         transform: scale(1.36);
       }
+    }
+
+    &-page:last-child {
+      margin: 0;
     }
   }
 }
