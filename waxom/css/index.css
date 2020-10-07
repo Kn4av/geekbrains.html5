@@ -5,13 +5,8 @@
   font-style: normal; }
 @font-face {
   font-family: 'montserrat';
-  src: url("../fonts/montserrat-thin.ttf");
-  font-weight: 100;
-  font-style: normal; }
-@font-face {
-  font-family: 'montserrat';
-  src: url("../fonts/montserrat-extralight.ttf");
-  font-weight: 200;
+  src: url("../fonts/montserrat-light.ttf");
+  font-weight: 300;
   font-style: normal; }
 .header {
   color: #fff;
@@ -44,7 +39,7 @@
       .header-menu-group-logo-svg {
         fill: currentColor; }
       .header-menu-group-logo-txt {
-        font-family: "Raleway, sans serif";
+        font-family: "Raleway", sans-serif;
         font-size: 34px;
         font-weight: 400;
         text-align: right; }
@@ -62,7 +57,7 @@
           .header-menu-group-menu-list li a {
             text-decoration: none;
             color: #fff;
-            font-family: "montserrat, sans serif";
+            font-family: "montserrat", sans-serif;
             font-size: 14px;
             line-height: 1.2;
             font-weight: 300; }
@@ -120,13 +115,13 @@
       .header-slider-current-secondary-title {
         font-size: 36px;
         font-weight: 500;
-        font-family: "Raleway, sans serif"; }
+        font-family: "Raleway", sans-serif; }
       .header-slider-current-primary-title {
         font-size: 52px;
         font-weight: 800;
-        font-family: "Raleway, sans serif"; }
+        font-family: "Raleway", sans-serif; }
       .header-slider-current-text {
-        font-family: "montserrat, sans serif";
+        font-family: "montserrat", sans-serif;
         font-size: 16px;
         font-weight: 300;
         max-width: 562px;
@@ -138,7 +133,7 @@
         background-color: #998675;
         border: none;
         border-radius: 3px;
-        font-family: "Raleway, sans serif";
+        font-family: "Raleway", sans-serif;
         font-size: 14px;
         font-weight: 800;
         text-transform: uppercase;
@@ -206,7 +201,7 @@
     .services-item:hover .services-item-icon {
       fill: #c7b299; }
     .services-item-title {
-      font-family: "Raleway, sans serif";
+      font-family: "Raleway", sans-serif;
       font-size: 22px;
       font-weight: 600;
       color: #555555;
@@ -214,7 +209,7 @@
     .services-item:hover .services-item-title {
       color: #c7b299; }
     .services-item-description {
-      font-family: "montserrat, sans serif";
+      font-family: "montserrat", sans-serif;
       font-size: 14px;
       font-weight: 300;
       color: #8c8c8c;
