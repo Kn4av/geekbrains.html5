@@ -74,7 +74,8 @@
         border: none;
         padding: 0;
         margin: 0 0 0 63px;
-        fill: #fff; }
+        fill: #fff;
+        cursor: pointer; }
         .header-menu-group-menu-cart-image:hover {
           fill: #c7b299; }
       .header-menu-group-menu-search {
@@ -83,7 +84,8 @@
         border: none;
         padding: 0;
         margin: 0 0 0 28px;
-        fill: #fff; }
+        fill: #fff;
+        cursor: pointer; }
         .header-menu-group-menu-search-image:hover {
           fill: #c7b299; }
   .header-slider {
