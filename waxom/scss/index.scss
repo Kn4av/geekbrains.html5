@@ -1,0 +1,15 @@
+@import 'fonts';
+@import 'header';
+@import 'services';
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1920px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

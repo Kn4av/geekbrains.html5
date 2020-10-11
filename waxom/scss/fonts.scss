@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url('../fonts/montserrat-regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../fonts/montserrat-light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+$montserrat: 'montserrat', sans-serif;
+$raleway: 'Raleway', sans-serif;
