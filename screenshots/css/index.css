@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?94019717');
+    src: url('../font/fontello.eot?94019717#iefix') format('embedded-opentype'),
+    url('../font/fontello.woff?94019717') format('woff'),
+    url('../font/fontello.ttf?94019717') format('truetype'),
+    url('../font/fontello.svg?94019717#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     font-family: Arial, serif;
@@ -169,7 +180,7 @@ body {
 }
 
 .screenshot-item {
-    width: calc(50% - 16px);
+    width: 48%;
     margin: 35px 16px 0 0;
 }
 
@@ -206,6 +217,7 @@ body {
     background-color: #f5f5f5;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .reviews-title {
@@ -220,7 +232,7 @@ body {
 
 .reviews-item {
     margin: 35px 32px 0 0;
-    width: calc(50% - 32px);
+    width: 47%;
     display: flex;
 }
 
@@ -301,7 +313,8 @@ body {
 
 .buy-package-title {
     font-size: 24px;
-    line-height: 62px;
+    padding: 16px;
+    box-sizing: border-box;
     font-weight: 400;
     color: #ffffff;
     display: block;
@@ -310,7 +323,8 @@ body {
 
 .buy-package-price {
     font-size: 40px;
-    line-height: 66px;
+    padding: 18px;
+    box-sizing: border-box;
     font-weight: 400;
     color: #445162;
     background-color: white;
@@ -480,12 +494,28 @@ body {
 }
 
 .contacts-details-social-media-btn {
+    background-color: white;
     display: block;
     width: 42px;
     height: 42px;
-    background-color: white;
     border-radius: 50%;
     margin: 0 8px 0 0;
+    color: #445162;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: bolder;
+    text-decoration: inherit;
+    text-align: center;
+    font-size: 20px;
+    line-height: 42px;
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .footer {
