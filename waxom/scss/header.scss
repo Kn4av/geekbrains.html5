@@ -1,5 +1,6 @@
 .header {
   $primary-foreground: #fff;
+  $active-color: yellow;
   color: $primary-foreground;
 
   display: flex;
@@ -31,6 +32,10 @@
 
       &:hover {
         color: #998675;
+      }
+
+      &:active {
+        color: $active-color;
       }
 
       &-svg {
@@ -89,6 +94,10 @@
           &:hover {
             fill: $menu-accent;
           }
+
+          &:active {
+            fill: $active-color;
+          }
         }
       }
 
@@ -104,6 +113,10 @@
         &-image {
           &:hover {
             fill: $menu-accent;
+          }
+
+          &:active {
+            fill: $active-color;
           }
         }
       }
@@ -138,6 +151,11 @@
       &:hover:after {
         border-top: 2px solid orange;
         border-right: 2px solid orange;
+      }
+      
+      &:active:after {
+        border-top: 2px solid $active-color;
+        border-right: 2px solid $active-color;
       }
     }
 
@@ -188,7 +206,8 @@
         }
 
         &:active {
-          border: #c7b299 1px solid;
+          color: black;
+          background-color: $active-color;
         }
       }
     }
@@ -216,6 +235,11 @@
       &:hover:after {
         border-top: 2px solid orange;
         border-right: 2px solid orange;
+      }
+
+      &:active:after {
+        border-top: 2px solid $active-color;
+        border-right: 2px solid $active-color;
       }
     }
   }

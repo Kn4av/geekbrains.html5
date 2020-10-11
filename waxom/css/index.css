@@ -36,6 +36,8 @@
       color: #fff; }
       .header-menu-group-logo:hover {
         color: #998675; }
+      .header-menu-group-logo:active {
+        color: yellow; }
       .header-menu-group-logo-svg {
         fill: currentColor; }
       .header-menu-group-logo-txt {
@@ -73,6 +75,8 @@
         cursor: pointer; }
         .header-menu-group-menu-cart-image:hover {
           fill: #c7b299; }
+        .header-menu-group-menu-cart-image:active {
+          fill: yellow; }
       .header-menu-group-menu-search {
         outline: none;
         background: transparent;
@@ -83,6 +87,8 @@
         cursor: pointer; }
         .header-menu-group-menu-search-image:hover {
           fill: #c7b299; }
+        .header-menu-group-menu-search-image:active {
+          fill: yellow; }
   .header-slider {
     align-self: stretch;
     display: flex;
@@ -107,6 +113,9 @@
       .header-slider-previous:hover:after {
         border-top: 2px solid orange;
         border-right: 2px solid orange; }
+      .header-slider-previous:active:after {
+        border-top: 2px solid yellow;
+        border-right: 2px solid yellow; }
     .header-slider-current {
       max-width: 590px;
       display: flex;
@@ -144,7 +153,8 @@
         .header-slider-current-action-button:hover {
           background-color: gray; }
         .header-slider-current-action-button:active {
-          border: #c7b299 1px solid; }
+          color: black;
+          background-color: yellow; }
     .header-slider-next {
       display: block;
       width: 40px;
@@ -165,6 +175,9 @@
       .header-slider-next:hover:after {
         border-top: 2px solid orange;
         border-right: 2px solid orange; }
+      .header-slider-next:active:after {
+        border-top: 2px solid yellow;
+        border-right: 2px solid yellow; }
   .header-paging {
     display: flex;
     align-self: center; }
