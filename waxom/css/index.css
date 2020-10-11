@@ -373,19 +373,19 @@
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        background-color: #fbfaf8;
+        background-color: var(--waxom-card-text-background);
         position: relative; }
         .latest-projects-cards-item-text-title {
           font-family: "raleway", sans-serif;
           font-size: 20px;
           font-weight: 500;
-          color: #c7b299; }
+          color: var(--waxom-card-text-title-color); }
         .latest-projects-cards-item-text-sub-title {
           font-family: "montserrat", sans-serif;
           font-size: 14px;
           line-height: 20px;
           font-weight: 300;
-          color: #d1d1d1; }
+          color: var(--waxom-card-text-sub-title-color); }
         .latest-projects-cards-item-text:after {
           content: '';
           display: block;
@@ -393,10 +393,18 @@
           height: 0;
           border-left: 10px solid transparent;
           border-right: 10px solid transparent;
-          border-bottom: 10px solid #fbfaf8;
+          border-bottom: 10px solid var(--waxom-card-text-background);
           position: absolute;
           left: 14px;
           top: -10px; }
+      .latest-projects-cards-item-light {
+        --waxom-card-text-background: #fbfaf8;
+        --waxom-card-text-title-color: #c7b299;
+        --waxom-card-text-sub-title-color: #d1d1d1; }
+      .latest-projects-cards-item-dark {
+        --waxom-card-text-background: #362f2d;
+        --waxom-card-text-title-color: #fff;
+        --waxom-card-text-sub-title-color: #c7b299; }
 
 body {
   margin: 0;
