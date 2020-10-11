@@ -28,6 +28,24 @@
   src: url("../fonts/raleway-extrabold.ttf");
   font-weight: 800;
   font-style: normal; }
+.action-button {
+  width: 170px;
+  height: 50px;
+  background-color: #998675;
+  border: none;
+  border-radius: 3px;
+  font-family: "raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  outline: none;
+  color: white; }
+  .action-button:hover {
+    background-color: gray; }
+  .action-button:active {
+    color: black;
+    background-color: yellow; }
+
 .header {
   color: #fff;
   display: flex;
@@ -158,23 +176,8 @@
         hyphens: auto;
         text-align: center; }
       .header-slider-current-action-button {
-        width: 170px;
         height: 53px;
-        background-color: #998675;
-        border: none;
-        border-radius: 3px;
-        font-family: "raleway", sans-serif;
-        font-size: 14px;
-        font-weight: 800;
-        text-transform: uppercase;
-        outline: none;
-        color: #fff;
         margin: 52px 0 0 0; }
-        .header-slider-current-action-button:hover {
-          background-color: gray; }
-        .header-slider-current-action-button:active {
-          color: black;
-          background-color: yellow; }
     .header-slider-next {
       display: block;
       width: 40px;
@@ -288,6 +291,29 @@
       text-align: center; }
     .screenshots-body-front-image {
       margin: 40px 0 0 0; }
+
+.purchase {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f5f8;
+  background-image: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+  padding: 50px 374px 50px 376px; }
+  .purchase-text {
+    display: flex;
+    flex-direction: column; }
+    .purchase-text-title {
+      font-size: 28px;
+      font-weight: 400;
+      color: #ffffff;
+      font-family: "raleway", sans-serif; }
+      .purchase-text-title-accent {
+        color: #c7b299; }
+    .purchase-text-description {
+      font-family: "montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      color: #615855;
+      margin: 8px 0 0 0; }
 
 body {
   margin: 0;

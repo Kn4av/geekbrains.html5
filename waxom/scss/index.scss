@@ -1,8 +1,11 @@
+$active-color: yellow;
+
 @import 'fonts';
+@import 'button';
 @import 'header';
 @import 'services';
 @import 'screenshots';
-
+@import 'purchase';
 
 body {
   margin: 0;

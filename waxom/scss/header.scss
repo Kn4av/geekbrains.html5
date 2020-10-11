@@ -1,6 +1,5 @@
 .header {
   $primary-foreground: #fff;
-  $active-color: yellow;
   color: $primary-foreground;
 
   display: flex;
@@ -188,27 +187,8 @@
       }
 
       &-action-button {
-        width: 170px;
         height: 53px;
-        background-color: #998675;
-        border: none;
-        border-radius: 3px;
-        font-family: $raleway;
-        font-size: 14px;
-        font-weight: 800;
-        text-transform: uppercase;
-        outline: none;
-        color: $primary-foreground;
         margin: 52px 0 0 0;
-
-        &:hover {
-          background-color: gray;
-        }
-
-        &:active {
-          color: black;
-          background-color: $active-color;
-        }
       }
     }
 
