@@ -405,6 +405,8 @@
         --waxom-card-text-background: #362f2d;
         --waxom-card-text-title-color: #fff;
         --waxom-card-text-sub-title-color: #c7b299; }
+  .latest-projects-load-more {
+    margin: 40px 0 0 0; }
 
 body {
   margin: 0;
