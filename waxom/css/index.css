@@ -358,6 +358,45 @@
         background-color: #998675;
         color: white;
         border: 1px solid #998675; }
+  .latest-projects-cards {
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .latest-projects-cards-item {
+      width: 370px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 30px 0; }
+      .latest-projects-cards-item-text {
+        padding: 30px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        background-color: #fbfaf8;
+        position: relative; }
+        .latest-projects-cards-item-text-title {
+          font-family: "raleway", sans-serif;
+          font-size: 20px;
+          font-weight: 500;
+          color: #c7b299; }
+        .latest-projects-cards-item-text-sub-title {
+          font-family: "montserrat", sans-serif;
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 300;
+          color: #d1d1d1; }
+        .latest-projects-cards-item-text:after {
+          content: '';
+          display: block;
+          width: 0;
+          height: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 10px solid #fbfaf8;
+          position: absolute;
+          left: 14px;
+          top: -10px; }
 
 body {
   margin: 0;
