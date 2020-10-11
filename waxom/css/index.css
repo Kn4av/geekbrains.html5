@@ -8,6 +8,26 @@
   src: url("../fonts/montserrat-light.ttf");
   font-weight: 300;
   font-style: normal; }
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-regular.ttf");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-medium.ttf");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-semibold.ttf");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-extrabold.ttf");
+  font-weight: 800;
+  font-style: normal; }
 .header {
   color: #fff;
   display: flex;
@@ -41,7 +61,7 @@
       .header-menu-group-logo-svg {
         fill: currentColor; }
       .header-menu-group-logo-txt {
-        font-family: "Raleway", sans-serif;
+        font-family: "raleway", sans-serif;
         font-size: 34px;
         font-weight: 400;
         text-align: right; }
@@ -124,11 +144,11 @@
       .header-slider-current-secondary-title {
         font-size: 36px;
         font-weight: 500;
-        font-family: "Raleway", sans-serif; }
+        font-family: "raleway", sans-serif; }
       .header-slider-current-primary-title {
         font-size: 52px;
         font-weight: 800;
-        font-family: "Raleway", sans-serif;
+        font-family: "raleway", sans-serif;
         margin: 14px 0 0 0; }
       .header-slider-current-text {
         font-family: "montserrat", sans-serif;
@@ -143,7 +163,7 @@
         background-color: #998675;
         border: none;
         border-radius: 3px;
-        font-family: "Raleway", sans-serif;
+        font-family: "raleway", sans-serif;
         font-size: 14px;
         font-weight: 800;
         text-transform: uppercase;
@@ -217,7 +237,7 @@
     .services-item:hover .services-item-icon {
       fill: #c7b299; }
     .services-item-title {
-      font-family: "Raleway", sans-serif;
+      font-family: "raleway", sans-serif;
       font-size: 22px;
       font-weight: 600;
       color: #555555;
