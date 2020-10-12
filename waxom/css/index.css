@@ -430,6 +430,10 @@
       justify-content: center; }
       .video-controls-play-icon {
         fill: white; }
+      .video-controls-play:hover .video-controls-play-icon {
+        fill: orange; }
+      .video-controls-play:active .video-controls-play-icon {
+        fill: red; }
     .video-controls-title {
       font-family: "raleway", sans-serif;
       font-size: 30px;

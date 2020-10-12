@@ -24,6 +24,14 @@
       &-icon {
         fill: white;
       }
+
+      &:hover &-icon {
+        fill: orange;
+      }
+
+      &:active &-icon {
+        fill: red;
+      }
     }
 
     &-title {
