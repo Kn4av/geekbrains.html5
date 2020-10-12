@@ -456,6 +456,45 @@
       color: #c7b299;
       margin: 40px 0 0 0; }
 
+.mobile-devices {
+  display: flex;
+  justify-content: center; }
+  .mobile-devices-content {
+    margin: 0 auto;
+    display: flex; }
+    .mobile-devices-content-photo {
+      margin: 79px 0 0 0; }
+    .mobile-devices-content-description {
+      max-width: 657px;
+      align-self: center; }
+      .mobile-devices-content-description-title {
+        font-family: "raleway", sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        color: #555555; }
+      .mobile-devices-content-description-paragraph {
+        font-family: "montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        color: #8c8c8c;
+        margin: 40px 0 0 0; }
+      .mobile-devices-content-description-points {
+        margin: 45px 0 0 0;
+        font-family: "montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        color: #8c8c8c;
+        list-style-type: none; }
+        .mobile-devices-content-description-points li {
+          position: relative;
+          margin: 0 0 12px 39px; }
+          .mobile-devices-content-description-points li:after {
+            content: url("../img/point.svg");
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -41px; }
+
 body {
   margin: 0;
   padding: 0; }
