@@ -678,6 +678,20 @@
     .recent-posts-paging-next:hover {
       fill: red; }
 
+.famous-clients {
+  background-image: url("../img/famous_clients_background.png");
+  background-repeat: no-repeat;
+  height: 489px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .famous-clients-logos {
+    width: 1108px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+
 body {
   margin: 0;
   padding: 0; }
