@@ -21,34 +21,6 @@
     align-items: center;
     justify-content: space-between;
 
-    &-logo {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 181px;
-      text-decoration: none;
-      color: $primary-foreground;
-
-      &:hover {
-        color: #998675;
-      }
-
-      &:active {
-        color: $active-color;
-      }
-
-      &-svg {
-        fill: currentColor;
-      }
-
-      &-txt {
-        font-family: $raleway;
-        font-size: 34px;
-        font-weight: 400;
-        text-align: right;
-      }
-    }
-
     &-menu {
       $menu-accent: #c7b299;
 

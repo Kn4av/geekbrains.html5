@@ -46,6 +46,25 @@
     color: black;
     background-color: yellow; }
 
+.waxom-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 181px;
+  text-decoration: none;
+  color: #fff; }
+  .waxom-logo:hover {
+    color: #998675; }
+  .waxom-logo:active {
+    color: yellow; }
+  .waxom-logo-svg {
+    fill: currentColor; }
+  .waxom-logo-txt {
+    font-family: "raleway", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: right; }
+
 .header {
   color: #fff;
   display: flex;
@@ -65,24 +84,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between; }
-    .header-menu-group-logo {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 181px;
-      text-decoration: none;
-      color: #fff; }
-      .header-menu-group-logo:hover {
-        color: #998675; }
-      .header-menu-group-logo:active {
-        color: yellow; }
-      .header-menu-group-logo-svg {
-        fill: currentColor; }
-      .header-menu-group-logo-txt {
-        font-family: "raleway", sans-serif;
-        font-size: 34px;
-        font-weight: 400;
-        text-align: right; }
     .header-menu-group-menu {
       flex-shrink: 0;
       display: flex; }
