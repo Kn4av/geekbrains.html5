@@ -535,6 +535,143 @@
           background-color: white;
           margin: 30px auto 0 auto; }
 
+.recent-posts {
+  padding: 80px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .recent-posts-title {
+    font-family: "raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555; }
+  .recent-posts-sub-title {
+    font-family: "montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+    max-width: 760px;
+    text-align: center; }
+  .recent-posts-cards {
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .recent-posts-cards-item {
+      display: flex;
+      flex-direction: column;
+      max-width: 370px;
+      margin: 0 50px 0 0; }
+      .recent-posts-cards-item:last-child {
+        margin: 0; }
+      .recent-posts-cards-item-light {
+        --waxom-recent-posts-background: white;
+        --waxom-recent-posts-border: #f8f8f8;
+        --waxom-recent-posts-title: #555555;
+        --waxom-recent-posts-description: #8c8c8c;
+        --waxom-recent-posts-day-background: #363636;
+        --waxom-recent-posts-month-background: #252525; }
+      .recent-posts-cards-item-dark {
+        --waxom-recent-posts-background: #362f2d;
+        --waxom-recent-posts-border: #362f2d;
+        --waxom-recent-posts-title: #c7b299;
+        --waxom-recent-posts-description: #ffffff;
+        --waxom-recent-posts-day-background: #c7b299;
+        --waxom-recent-posts-month-background: #a48d72; }
+      .recent-posts-cards-item-header {
+        display: flex;
+        height: 220px;
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative; }
+        .recent-posts-cards-item-header-image {
+          position: absolute;
+          top: 0;
+          left: 0; }
+        .recent-posts-cards-item-header-date {
+          margin: 20px 0 0 20px;
+          align-self: flex-start;
+          display: flex;
+          flex-direction: column;
+          z-index: 1; }
+          .recent-posts-cards-item-header-date-day {
+            font-family: "montserrat", sans-serif;
+            font-size: 24px;
+            font-weight: 300;
+            color: #ffffff;
+            padding: 2px 8px;
+            background-color: var(--waxom-recent-posts-day-background);
+            border-radius: 3px 3px 0 0; }
+          .recent-posts-cards-item-header-date-month {
+            font-family: "Roboto";
+            font-size: 12px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #ffffff;
+            padding: 2px 8px;
+            background-color: var(--waxom-recent-posts-month-background);
+            border-radius: 0 0 3px 3px;
+            text-align: center; }
+        .recent-posts-cards-item-header-pages {
+          align-self: center;
+          display: flex;
+          flex-direction: row;
+          margin: 0 0 22px 0;
+          height: 15px; }
+          .recent-posts-cards-item-header-pages-marker {
+            width: 11px;
+            height: 11px;
+            opacity: 0.3;
+            background-color: #ffffff;
+            margin: 0 10px 0 0;
+            border-radius: 50%;
+            border: 1px solid #ffffff;
+            box-sizing: border-box; }
+            .recent-posts-cards-item-header-pages-marker:last-child {
+              margin: 0; }
+            .recent-posts-cards-item-header-pages-marker-selected, .recent-posts-cards-item-header-pages-marker:hover {
+              transform: scale(1.36);
+              border: 1px solid #d3c1ad;
+              background-color: transparent;
+              opacity: 1; }
+      .recent-posts-cards-item-content {
+        border: 1px solid var(--waxom-recent-posts-border);
+        border-top: 0;
+        align-self: stretch;
+        padding: 29px;
+        background-color: var(--waxom-recent-posts-background); }
+        .recent-posts-cards-item-content-title {
+          font-family: "raleway", sans-serif;
+          font-size: 20px;
+          font-weight: 500;
+          color: var(--waxom-recent-posts-title); }
+        .recent-posts-cards-item-content-description {
+          font-family: "montserrat", sans-serif;
+          font-size: 14px;
+          line-height: 22px;
+          font-weight: 300;
+          color: var(--waxom-recent-posts-description); }
+        .recent-posts-cards-item-content-read-more {
+          font-family: "montserrat", sans-serif;
+          font-size: 14px;
+          font-weight: 300;
+          color: #c7b299;
+          text-decoration: none; }
+          .recent-posts-cards-item-content-read-more:after {
+            content: '';
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 5px solid #c7b299;
+            margin: 0 0 0 9px; }
+          .recent-posts-cards-item-content-read-more:hover {
+            color: red; }
+          .recent-posts-cards-item-content-read-more:hover:after {
+            border-left: 5px solid red; }
+
 body {
   margin: 0;
   padding: 0; }
