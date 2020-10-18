@@ -809,6 +809,37 @@
       .widgets-content-dribbble img {
         margin: 10px 0 0 0; }
 
+.footer {
+  background-color: #111111;
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer-content {
+    margin: 0 auto;
+    width: 1168px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #555555; }
+    .footer-content-copyright-waxom {
+      color: #959595; }
+    .footer-content-copyright-separator {
+      color: #252525; }
+    .footer-content-copyright-link {
+      color: #505050;
+      text-decoration: none; }
+      .footer-content-copyright-link:hover {
+        color: #BEAA93; }
+    .footer-content-end-link {
+      color: #959595;
+      text-decoration: none; }
+      .footer-content-end-link:hover {
+        color: yellow; }
+
 body {
   margin: 0;
   padding: 0; }
