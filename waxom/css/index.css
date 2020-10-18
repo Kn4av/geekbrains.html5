@@ -713,7 +713,7 @@
     justify-content: space-between;
     width: 1168px; }
     .widgets-content-waxom {
-      width: 260px; }
+      width: 270px; }
       .widgets-content-waxom-description {
         font-family: "montserrat", sans-serif;
         font-size: 14px;
@@ -745,7 +745,7 @@
         display: flex;
         flex-direction: column;
         margin: 19px 0 0 0;
-        width: 260px; }
+        width: 270px; }
         .widgets-content-recent-posts-item-date {
           font-family: "montserrat", sans-serif;
           font-size: 12px;
@@ -768,7 +768,7 @@
     .widgets-content-twitter {
       display: flex;
       flex-direction: column;
-      width: 260px;
+      width: 270px;
       justify-content: flex-start; }
       .widgets-content-twitter-item {
         display: flex;
@@ -795,6 +795,19 @@
           color: #363636; }
         .widgets-content-twitter-item .widgets-separator {
           margin: 10px 0 0 0; }
+    .widgets-content-dribbble {
+      width: 270px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      justify-items: flex-start;
+      align-self: flex-start; }
+      .widgets-content-dribbble-title {
+        width: 100%;
+        margin: 0 0 26px 0; }
+      .widgets-content-dribbble img {
+        margin: 10px 0 0 0; }
 
 body {
   margin: 0;

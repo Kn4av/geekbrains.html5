@@ -22,7 +22,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 1168px;
-    $column-width: 260px;
+    $column-width: 270px;
 
     &-waxom {
       width: $column-width;
@@ -148,6 +148,25 @@
         & .widgets-separator {
           margin: 10px 0 0 0;
         }
+      }
+    }
+
+    &-dribbble {
+      width: $column-width;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      justify-items: flex-start;
+      align-self: flex-start;
+
+      &-title {
+        width: 100%;
+        margin: 0 0 26px 0;
+      }
+
+      & img {
+        margin: 10px 0 0 0;
       }
     }
   }
