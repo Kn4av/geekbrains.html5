@@ -1,0 +1,21 @@
+@media only screen and (max-width: $mobile-max-width) {
+  .video {
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0 0 0;
+
+    &-controls {
+      &-title {
+        font-size: 22px;
+      }
+
+      &-description {
+        font-size: 12px;
+      }
+
+      &-duration {
+        font-size: 12px;
+      }
+    }
+  }
+}

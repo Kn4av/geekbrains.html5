@@ -1,7 +1,30 @@
-@import 'fonts';
-@import 'header';
-@import 'services';
+$active-color: yellow;
+$mobile-max-width: 414px;
 
+@import 'fonts';
+@import 'button';
+@import 'logo';
+@import 'logo-mobile';
+@import 'header-desktop';
+@import 'header-mobile';
+@import 'services';
+@import 'services-mobile';
+@import 'screenshots';
+@import 'screenshots-mobile';
+@import 'purchase';
+@import 'purchase-mobile';
+@import 'latest-projects';
+@import 'latest-projects-mobile';
+@import 'video';
+@import 'video-mobile';
+@import 'mobile-devices';
+@import 'mobile-devices-mobile';
+@import 'stats';
+@import 'recent-posts';
+@import 'famous-clients';
+@import 'widgets';
+@import 'footer';
+@import 'other-sections-mobile';
 
 body {
   margin: 0;
@@ -9,7 +32,15 @@ body {
 }
 
 .container {
-  width: 1920px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+@media only screen and (min-width: $mobile-max-width+1) {
+  .container {
+    width: 1920px;
+    margin: 0 auto;
+  }
 }

@@ -1,0 +1,173 @@
+.widgets {
+  background-color: #191919;
+  padding: 80px 0;
+
+  &-column-title {
+    font-family: $raleway;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  &-separator {
+    width: 100%;
+    height: 2px;
+    background-color: #252525;
+    margin: 5px 0 0 0;
+  }
+
+  &-content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1168px;
+    $column-width: 270px;
+
+    &-waxom {
+      width: $column-width;
+
+      &-description {
+        font-family: $montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        color: #555555;
+      }
+
+      &-read-more {
+        font-family: $montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        color: #d1d1d1;
+        text-decoration: none;
+
+        &:after {
+          content: '';
+          display: inline-block;
+          width: 0;
+          height: 0;
+          border-top: 5px solid transparent;
+          border-bottom: 5px solid transparent;
+          border-left: 5px solid #c7b299;
+          margin: 0 0 0 9px;
+        }
+
+        &:hover {
+          color: orange;
+        }
+
+        &:hover:after {
+          border-left: 5px solid orange;
+        }
+      }
+    }
+
+    &-recent-posts {
+      display: flex;
+      flex-direction: column;
+
+      &-item {
+        display: flex;
+        flex-direction: column;
+        margin: 19px 0 0 0;
+        width: $column-width;
+
+        &-date {
+          font-family: $montserrat;
+          font-size: 12px;
+          font-weight: 300;
+          color: #363636;
+        }
+
+        &-text {
+          font-family: $montserrat;
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 300;
+          color: #555555;
+          word-break: break-all;
+          hyphens: auto;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:hover &-date {
+          color: #ffffff;
+        }
+
+        &:hover &-text {
+          color: #c7b299;
+        }
+      }
+    }
+
+    &-twitter {
+      display: flex;
+      flex-direction: column;
+      width: $column-width;
+      justify-content: flex-start;
+
+      &-item {
+        display: flex;
+        flex-direction: column;
+
+        &-text {
+          font-family: $montserrat;
+          font-size: 14px;
+          font-weight: 300;
+          color: #555555;
+
+          &-mention {
+            color: #00bff3;
+            text-decoration: none;
+
+            &:hover {
+              color: yellow;
+            }
+          }
+
+          &-link {
+            color: #959595;
+            text-decoration: none;
+
+            &:hover {
+              color: yellow;
+            }
+          }
+        }
+
+        &-time {
+          font-family: $montserrat;
+          font-size: 12px;
+          font-weight: 300;
+          color: #363636;
+        }
+
+        & .widgets-separator {
+          margin: 10px 0 0 0;
+        }
+      }
+    }
+
+    &-dribbble {
+      width: $column-width;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      justify-items: flex-start;
+      align-self: flex-start;
+
+      &-title {
+        width: 100%;
+        margin: 0 0 26px 0;
+      }
+
+      & img {
+        margin: 10px 0 0 0;
+      }
+    }
+  }
+}

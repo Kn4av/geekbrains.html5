@@ -1,0 +1,125 @@
+.latest-projects {
+  padding: 81px 374px 80px 376px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-title {
+    font-family: $raleway;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+  }
+
+  &-sub-title {
+    font-family: $montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 24px 0 0 0;
+    max-width: 757px;
+    text-align: center;
+  }
+
+  &-categories {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+
+    &-item {
+      margin: 0 10px 0 0;
+      font-family: $montserrat;
+      font-size: 14px;
+      font-weight: 300;
+      color: #8c8c8c;
+      height: 32px;
+      background-color: white;
+      border: 1px solid #ebebeb;
+      border-radius: 3px;
+      outline: none;
+      padding: 0 26px;
+
+      &:last-child {
+        margin: 0;
+      }
+
+      &:hover {
+        border: 1px solid bisque;
+        background-color: bisque;
+      }
+
+      &-selected, &:active {
+        background-color: #998675;
+        color: white;
+        border: 1px solid #998675;
+      }
+    }
+  }
+
+  &-cards {
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &-item {
+      width: 370px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 30px 0;
+
+      &-text {
+        padding: 30px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--waxom-card-text-background);
+        position: relative;
+
+        &-title {
+          font-family: $raleway;
+          font-size: 20px;
+          font-weight: 500;
+          color: var(--waxom-card-text-title-color);
+        }
+
+        &-sub-title {
+          font-family: $montserrat;
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 300;
+          color: var(--waxom-card-text-sub-title-color);
+        }
+
+        &:after {
+          content: '';
+          display: block;
+          width: 0;
+          height: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 10px solid var(--waxom-card-text-background);
+          position: absolute;
+          left: 14px;
+          top: -10px;
+        }
+      }
+
+      &-light {
+        --waxom-card-text-background: #fbfaf8;
+        --waxom-card-text-title-color: #c7b299;
+        --waxom-card-text-sub-title-color: #d1d1d1;
+      }
+
+      &-dark {
+        --waxom-card-text-background: #362f2d;
+        --waxom-card-text-title-color: #fff;
+        --waxom-card-text-sub-title-color: #c7b299;
+      }
+    }
+  }
+
+  &-load-more {
+    margin: 40px 0 0 0;
+  }
+}

@@ -1,0 +1,9 @@
+@media only screen and (max-width: $mobile-max-width) {
+  .waxom-logo {
+    width: auto;
+
+    &-txt {
+      font-size: 20px;
+    }
+  }
+}

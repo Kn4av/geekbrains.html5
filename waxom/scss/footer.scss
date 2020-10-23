@@ -1,0 +1,49 @@
+.footer {
+  background-color: #111111;
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-content {
+    margin: 0 auto;
+    width: 1168px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: $montserrat;
+    font-size: 13px;
+    font-weight: 300;
+    color: #555555;
+
+    &-copyright {
+      &-waxom {
+        color: #959595;
+      }
+
+      &-separator {
+        color: #252525;
+      }
+
+      &-link {
+        color: #505050;
+        text-decoration: none;
+
+        &:hover {
+          color: #BEAA93;
+        }
+      }
+    }
+
+    &-end {
+      &-link {
+        color: #959595;
+        text-decoration: none;
+
+        &:hover {
+          color: yellow;
+        }
+      }
+    }
+  }
+}

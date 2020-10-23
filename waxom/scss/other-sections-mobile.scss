@@ -1,0 +1,21 @@
+@media only screen and (max-width: $mobile-max-width) {
+  .stats {
+    display: none;
+  }
+
+  .recent-posts {
+    display: none;
+  }
+
+  .famous-clients {
+    display: none;
+  }
+
+  .widgets {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+}
