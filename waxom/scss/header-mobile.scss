@@ -1,0 +1,36 @@
+.header-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: $mobile-max-width)  {
+  .header-desktop {
+    display: none;
+  }
+
+  .header-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 35px;
+    justify-content: space-between;
+    background-color: #4c4b46;
+    background-image: url('../img/bg_photo_mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 138px;
+    box-sizing: border-box;
+
+    &-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 30px;
+
+      &-line {
+        width: 35px;
+        height: 4px;
+        background-color: white;
+      }
+    }
+  }
+}
